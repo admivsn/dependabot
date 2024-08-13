@@ -9,5 +9,6 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
-    # target-branch: "update-dependencies"
+    allow:
+      - dependency-type: "production" # Only update production packages
 
